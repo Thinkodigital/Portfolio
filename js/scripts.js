@@ -59,25 +59,27 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 function submitForm(){
-    let name=document.getElementById('name').value;
-    let email=document.getElementById('email').value;
-    let phone=document.getElementById('phone').value;
-    let message=document.getElementById('message').value;
+   
 
     console.log("Name: "+name+" Email: "+email+" Phone: "+phone+" Message: "+message);
 
 }
-function sendEmail() { 
-	Email.send({ 
-		Host: "smtp.gmail.com", 
-		Username: "hananbhai5643@gmail.com", 
-		Password: "mynameishanan5643", 
-		To: 'thinkodigital@gmail.com', 
-		From: "hananbhai5643@gmail.com", 
-		Subject: "Sending Email using javascript", 
-		Body: "Well that was easy!!", 
-	}) 
-		.then(function (message) { 
-		alert("mail sent successfully") 
-		}); 
-	} 
+
+function sendEmail() {
+    let name=document.getElementById('name').value;
+    let email=document.getElementById('email').value;
+    let phone=document.getElementById('phone').value;
+    let message=document.getElementById('message').value;
+	Email.send({
+	Host: "smtp.elasticemail.com",
+    Port:"2525",
+	Username : "thinkodigital@gmail.com",
+	Password : "3BBA10C8F3CEE93B3B04ACAE74CC294AF254",
+	To : 'asadabbaskazmi93@gmail.com',
+	From : "thinkodigital@gmail.com",
+	Subject : "Test Email using SMTP",
+	Body : "Name: "+name+" Email: "+email+" Phone: "+phone+" Message: "+message,
+	}).then(
+		message => alert("mail sent successfully")
+	);
+}
