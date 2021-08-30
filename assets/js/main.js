@@ -252,7 +252,7 @@ function sendEmail() {
     Port: "2525",
     Username: "thinkodigital@gmail.com",
     Password: "3BBA10C8F3CEE93B3B04ACAE74CC294AF254",
-    To: 'asadabbaskazmi93@gmail.com',
+    To: 'asadabbaskazmi93@gmail.com,contact@thinkodigital.com',
     From: "thinkodigital@gmail.com",
     Subject: subject,
     Body: "Name: " + name + " Email: " + email + " Message: " + message,
