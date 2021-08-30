@@ -4,8 +4,9 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-(function() {
+(function () {
   "use strict";
+
 
   /**
    * Easy selector helper function
@@ -93,7 +94,7 @@
   /**
    * Mobile nav toggle
    */
-  on('click', '.mobile-nav-toggle', function(e) {
+  on('click', '.mobile-nav-toggle', function (e) {
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
@@ -102,7 +103,7 @@
   /**
    * Mobile nav dropdowns activate
    */
-  on('click', '.navbar .dropdown > a', function(e) {
+  on('click', '.navbar .dropdown > a', function (e) {
     if (select('#navbar').classList.contains('navbar-mobile')) {
       e.preventDefault()
       this.nextElementSibling.classList.toggle('dropdown-active')
@@ -112,7 +113,7 @@
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
-  on('click', '.scrollto', function(e) {
+  on('click', '.scrollto', function (e) {
     if (select(this.hash)) {
       e.preventDefault()
 
@@ -135,7 +136,7 @@
     new Waypoint({
       element: skilsContent,
       offset: '80%',
-      handler: function(direction) {
+      handler: function (direction) {
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
           el.style.width = el.getAttribute('aria-valuenow') + '%'
@@ -174,9 +175,9 @@
 
       let portfolioFilters = select('#portfolio-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#portfolio-flters li', function (e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        portfolioFilters.forEach(function (el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
@@ -184,7 +185,7 @@
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        portfolioIsotope.on('arrangeComplete', function () {
           AOS.refresh()
         });
       }, true);
@@ -228,3 +229,34 @@
   });
 
 })()
+
+
+function pushInDiv(){
+  document.getElementById("successMessage").style.color = "green";
+  document.getElementById("successMessage").style.backgroundColor = "#18d26e";
+
+}
+function pushData(){
+  pushInDiv();
+  document.getElementById("success").innerHTML = "Message has been sent successfully!";
+}
+
+
+function sendEmail() {
+  let name = document.getElementById('name').value;
+  let email = document.getElementById('email').value;
+  let subject = document.getElementById('subject').value;
+  let message = document.getElementById('message').value;
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Port: "2525",
+    Username: "thinkodigital@gmail.com",
+    Password: "3BBA10C8F3CEE93B3B04ACAE74CC294AF254",
+    To: 'asadabbaskazmi93@gmail.com',
+    From: "thinkodigital@gmail.com",
+    Subject: subject,
+    Body: "Name: " + name + " Email: " + email + " Message: " + message,
+  }).then(
+    message => pushData()
+  );
+}

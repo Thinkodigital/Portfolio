@@ -2322,3 +2322,7 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+
+.success{
+  padding: 15px;
+}
