@@ -1,755 +1,928 @@
 <!DOCTYPE html>
-<html lang="en-US" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--  
-    Document Title
-    =============================================
-    -->
-  <title>Thinko Digital </title>
-  <!--  
-    Favicons
-    =============================================
-    -->
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <!--  
-    Stylesheets
-    =============================================
-    
-    -->
-  <!-- Default stylesheets-->
-  <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Template specific stylesheets-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-  <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
-  <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
-  <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
-  <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
-  <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
-  <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
-  <!-- Main stylesheet and color file-->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+    <title> Thinko Digital | Marketing Solutions | Professional IT Services</title>
+    <meta name="description" content=" Thinko Digital offers professional web development and provides consulting services in the area of Digital Marketing and also provides automated and IT-enabled solutions to businesses across the globe. We provide a wide range of consulting services
+">	
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+	
+	<!-- CSS
+	================================================== -->
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Template styles-->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive styles-->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Animation -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Prettyphoto -->
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/cd-hero.css">
+	<!-- Style Swicther -->
+	<link id="style-switch" href="css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+	
+<body>
 
-<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
-  <main>
-    <div class="page-loader">
-      <div class="loader">Loading...</div>
-    </div>
-    <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span
-              class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
-              class="icon-bar"></span></button><a class="navbar-brand" href="index.html"><span><img
-                src="./assets/images/logo-white4.png" height="40" width="70" alt=""></span> Thinko Digital </a>
-        </div>
-        <div class="collapse navbar-collapse" id="custom-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a>
+	<!-- Style switcher start -->
+	<!-- <div class="style-switch-wrapper">
+		<div class="style-switch-button">
+			<i class="fa fa-sliders"></i>
+		</div>
+		<h3>Style Options</h3>
+		<button id="preset1" class="btn btn-sm btn-primary"></button>
+		<button id="preset2" class="btn btn-sm btn-primary"></button>
+		<button id="preset3" class="btn btn-sm btn-primary"></button>
+		<button id="preset4" class="btn btn-sm btn-primary"></button>
+		<button id="preset5" class="btn btn-sm btn-primary"></button>
+		<button id="preset6" class="btn btn-sm btn-primary"></button>
+		<br/><br/>
+		<a class="btn btn-sm btn-primary close-styler pull-right">Close X</a>
+	</div> -->
+	<!-- Style switcher end -->
 
-            </li>
-            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Experties</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown"><a class="dropdown-toggle" href="portfolio_single_featured_image2.html"
-                    data-toggle="dropdown">Digital Marketing</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="index_mp_fullscreen_static.html">Social Media Marketing</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" href="portfolio_single_featured_image2.html"
-                        data-toggle="dropdown">Search Engine
-                        Optiomization</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="portfolio_single_featured_image2.html">On Page Search Engine Optiomization </a>
-                        </li>
-                        <li><a href="portfolio_single_featured_image2.html">Off Page Search Engine Optiomization</a>
-                        <li><a href="portfolio_single_featured_image2.html">Guest Posting</a>
-                        <li><a href="portfolio_single_featured_image2.html">Do Follow Back-Links</a>
-                      </ul>
-                  </ul>
-                </li>
-                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Software Devlopment</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="Software Development.html">Website Devlopment</a></li>
-                    <li><a href="Software Development.html">App Devlopment</a></li>
-                    <li><a href="Software Development.html">E-commerce Stores</a></li>
-                    <li><a href="Software Development.html">Web Stores</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Consultancy</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="Data Managment.html">Market Strategy</a></li>
-                    <li><a href="Data Managment.html">Software Solutions</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"><a class="dropdown-toggle" href="BPO.html" data-toggle="dropdown">BPO</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="BPO.html">Contact Center</a></li>
-                    <li><a href="BPO.html">Mortgage & Title</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Data Management &
-                    Analytics</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="Data Managment.html">Cloud Service</a></li>
-                    <li><a href="Data Managment.html">Security</a></li>
-                    <li><a href="Data Managment.html">Quality Assurance</a></li>
-                    <li><a href="Data Managment.html">CRM</a></li>
-                    <li><a href="Data Managment.html">User Experience</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">What we Do</a>
-              <ul class="dropdown-menu">
-                <li><a href="about1.html">About</a>
+	<div class="body-inner">
 
-                </li>
-                <li><a href="about1.html">Life at TDS</a>
+	<!-- Header start -->
+	<header id="header" class="navbar-fixed-top header" role="banner">
+		<div class="container">
+			<div class="row">
+				<!-- Logo start -->
+				<div class="navbar-header">
+				   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+				    <div class="navbar-brand navbar-bg">
+					    <a href="index.html">
+					    	<img class="img-responsive" src="images/logo.png" alt="logo">
+					    </a> 
+				    </div>                   
+				</div><!--/ Logo end -->
+				<nav class="collapse navbar-collapse clearfix" role="navigation">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li class="dropdown">
+                       		<a href="service.html" class="dropdown-toggle" data-toggle="dropdown">Expertise<i class="fa fa-angle-down"></i></a>
+                       		<div class="dropdown-menu">
+								<ul>
+		                            <li><a href="digital Marketing.html">Digital Marketing</a></li>
+		                            <li><a href="Graphic Designing.html">Graphic Designing</a></li>
+		                            <li><a href="software development.html">Software Development</a></li>
+		                             <li><a href="web development.html">Web Development</a></li>
+		                             <li><a href="ecommerce.html">E-commerce Webstore</a></li>
+		                            <li><a href="wordpress development.html">Wordpress Development</a></li>
+		                            <li><a href="marketing.html">Marketing Consultency</a></li>
+		                            <li><a href="BPO.html">BPO</a></li>
+		                            <li><a href="data managment.html">Data Management& Analytics</a></li>
+		                        </ul>
+	                    	</div>
+	                    </li>
+						
+                       		
+		                   <li><a href="Customer satisfaction.html">Customer Satisfaction</a></li>
+		                            
+		                       
+	                    	
+	                  
+	                    <li class="dropdown">
+                       	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<i class="fa fa-angle-down"></i></a>
+                       		<div class="dropdown-menu">
+								<ul>
+		                   
+		                           	<li><a href="company.html">Our Company </a></li>
+		                           	<li><a href="team.html">Our Team </a></li>
+		                           	<li><a href="portfolio.html">Our Portfolio </a></li>
+		                           
+		                        </ul>
+	                    	</div>
+	                    </li>
+	                    <li class="dropdown">
+                       		<a href="#" 
+                       		class="dropdown-toggle" data-toggle="dropdown">Insights <i class="fa fa-angle-down"></i></a>
+                       		<div class="dropdown-menu">
+								<ul>
+		                           	 <li><a href="blogs.html">Blogs </a></li>
+	                            	<li><a href="news.html">News</a></li>
+	                            	
+		                        </ul>
+	                    	</div>
+	                    </li>
+	                    <li class="dropdown">
+                       		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Industries<i class="fa fa-angle-down"></i></a>
+                       		<div class="dropdown-menu">
+								<ul>
+		                           	<li><a href="retail.html">Retail</a></li>
+	                            	<li><a href="real estate.html">Real Estate</a></li>
+	                            	<li><a href="finance.html">Finance</a></li>
+	                            	<li><a href="public sector.html">Public Sector</a></li>
+	                            	<li><a href="telecommunication.html">Telecommunication</a></li>
+	                            	<li><a href="service provider.html">Service Provider</a></li>
+		                        </ul>
+	                    	</div>
+	                    </li>
+	                   <li>
+	                   	<a href="career.html">Careers</a>
 
-                </li>
+	                 </li>
+	                 
+	                  	<li><a href="contact.html">Contact Us</a>
 
-              </ul>
-            </li>
-            <li class="dropdown"><a class="dropdown-toggle" href="portfolio_boxed_col_2.html"
-                data-toggle="dropdown">Portfolio</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="portfolio_boxed_col_2.html">Customers Satisfication</a>
-                </li>
-                <li><a href="portfolio_boxed_col_2.html">Awards</a>
-                </li>
-                <li><a href="portfolio_boxed_col_2.html">Reviews</a>
-                </li>
+	                 </li>
+	                      </ul>
+		            
+            		
+            			
+                    
+				</nav><!--/ Navigation end -->
+			</div><!--/ Row end -->
+		</div><!--/ Container end -->
+	</header><!--/ Header end -->
 
-              </ul>
-            </li>
-            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Insights</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="blog_grid_col_2.html">Blog</a>
+	<!-- Slider start -->
+	<section id="home" class="no-padding">	
+    	<div id="main-slide" class="cd-hero">
+			<ul class="cd-hero-slider">
+				<li class="selected">
+					<div class="overlay2">
+						<img class="" src="images/slider/bg1.jpg" alt="slider">
+					</div>
+					<div class="cd-full-width">
+						<h2>Need To Digitalize Your Business!</h2>
+						<h3>We Making Difference To Great Things Possible</h3>
+						
+						<a href="contact.html" class="btn btn-primary solid cd-btn">Contact US</a>
+					</div> <!-- .cd-full-width -->
+				</li>
+				<li>
+					<div class="overlay2">
+						<img class="" src="images/slider/bg2.jpg" alt="slider">
+					</div>
+					<div class="cd-half-width">
+						<h2>How Big Can You Dream?</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+						<a href="#0" class="cd-btn btn btn-primary solid">Take a Tour</a>
+					</div> <!-- .cd-half-width -->
 
-                </li>
-                <li><a href="blog_grid_col_2.html">News</a></li>
-                <li><a href="blog_grid_col_2.html">Research and Devlopment</a></li>
-              </ul>
-            </li>
-            <li class="dropdown"><a class="dropdown-toggle" href="service1.html" data-toggle="dropdown">Industries</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="service1.html"><i class="fa fa-bolt"></i> Retail</a></li>
-                <li><a href="service1.html"><i class="fa fa-link fa-sm"></i> Real Estate</a></li>
-                <li><a href="service1.html"><i class="fa fa-tasks"></i> Finance</a></li>
-                <li><a href="service1.html"><i class="fa fa-list-alt"></i> Public Sector</a></li>
-                <li><a href="service1.html"><i class="fa fa-check-square-o"></i> Telecommunication</a></li>
-                <li><a href="service1.html"><i class="fa fa-server"></i> Service Provider</a></li>
+					<div class="cd-half-width cd-img-container">
+						<img src="images/slider/bg-thumb1.png" alt="">
+					</div> <!-- .cd-half-width.cd-img-container -->
+				</li>
+				<li>
+					<div class="overlay2">
+						<img class="" src="images/slider/bg3.jpg" alt="slider">
+					</div>
+					<div class="cd-half-width cd-img-container img-right">
+						<img src="images/slider/bg-thumb2.png" alt="">
+					</div> <!-- .cd-half-width.cd-img-container -->
+					<div class="cd-half-width">
+						<h2>Your Challenge is Our Progress</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+						<a href="#0" class="cd-btn btn btn-primary white">Start</a>
+						<a href="#0" class="cd-btn btn secondary btn-primary solid">Learn More</a>
+					</div> <!-- .cd-half-width -->
+				</li>
+				<li class="cd-bg-video">
+					<div class="cd-full-width">
+						<h2>WE ARE HERE TO MAKE IT HAPPEN</h2>
+						<h3>We Making Difference To Great Things Possible</h3>
 
-              </ul>
-            </li>
-            <li class="dropdown"><a class="dropdown-toggle" href="contact2.html" data-toggle="dropdown">Contact</a>
-              <ul class="dropdown-menu" role="menu">
-                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Countries</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="contact2.html">United States of America</a></li>
-                    <li><a href="contact2.html">Pakistan</a></li>
-                    <li><a href="contact2.html">Arab</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <!--li.dropdown.navbar-cart-->
-            <!--    a.dropdown-toggle(href='#', data-toggle='dropdown')-->
-            <!--        span.icon-basket-->
-            <!--        |-->
-            <!--        span.cart-item-number 2-->
-            <!--    ul.dropdown-menu.cart-list(role='menu')-->
-            <!--        li-->
-            <!--            .navbar-cart-item.clearfix-->
-            <!--                .navbar-cart-img-->
-            <!--                    a(href='#')-->
-            <!--                        img(src='assets/images/shop/product-9.jpg', alt='')-->
-            <!--                .navbar-cart-title-->
-            <!--                    a(href='#') Short striped sweater-->
-            <!--                    |-->
-            <!--                    span.cart-amount 2 &times; $119.00-->
-            <!--                    br-->
-            <!--                    |-->
-            <!--                    strong.cart-amount $238.00-->
-            <!--        li-->
-            <!--            .navbar-cart-item.clearfix-->
-            <!--                .navbar-cart-img-->
-            <!--                    a(href='#')-->
-            <!--                        img(src='assets/images/shop/product-10.jpg', alt='')-->
-            <!--                .navbar-cart-title-->
-            <!--                    a(href='#') Colored jewel rings-->
-            <!--                    |-->
-            <!--                    span.cart-amount 2 &times; $119.00-->
-            <!--                    br-->
-            <!--                    |-->
-            <!--                    strong.cart-amount $238.00-->
-            <!--        li-->
-            <!--            .clearfix-->
-            <!--                .cart-sub-totle-->
-            <!--                    strong Total: $476.00-->
-            <!--        li-->
-            <!--            .clearfix-->
-            <!--                a.btn.btn-block.btn-round.btn-font-w(type='submit') Checkout-->
-            <!--li.dropdown-->
-            <!--    a.dropdown-toggle(href='#', data-toggle='dropdown') Search-->
-            <!--    ul.dropdown-menu(role='menu')-->
-            <!--        li-->
-            <!--            .dropdown-search-->
-            <!--                form(role='form')-->
-            <!--                    input.form-control(type='text', placeholder='Search...')-->
-            <!--                    |-->
-            <!--                    button.search-btn(type='submit')-->
-            <!--                        i.fa.fa-search-->
-            <li class="dropdown"><a class="dropdown-toggle" href="documentation.html" data-toggle="dropdown">
-                Careers</a>
-              <ul class="dropdown-menu">
-                <li><a href="./404.html">Investors</a></li>
-                <li><a href="./404.html">Partner with Us</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <section class="home-section bg-dark-30" id="home" data-background="assets/images/finance/finance_header_bg.png">
-      <div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe
-          src='./assets/images/Background technology world loop.webm' class="autoplay" frameborder='0' scrolling='no'
-          width='100%' height='80%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
-      <p> <a href=></a></p>
-      <div class="video-controls-box">
-        <div class="container">
-          <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a
-              class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
-        </div>
-      </div>
-      <div class="titan-caption">
-        <div class="caption-content">
-          <div class="font-alt mb-30 titan-title-size-1">Hello &amp; welcome</div>
-          <div class="font-alt mb-40 titan-title-size-4">We are Thinko Digital</div><a
-            class="section-scroll btn btn-border-w btn-round" href="#about">Learn More</a>
-        </div>
-      </div>
-    </section>
-    <div class="main">
-      <section class="module-extra-small bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
-              <div class="callout-text font-alt">
-                <h4 style="margin-top: 0px; font-;">looking for a first-class business consultant?</h4>
-                <p style="margin-bottom: 0px;">We are always here for you</p>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-              <div class="callout-btn-box"><a class="btn btn-w btn-round" href="#">get a quote</a></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="module-medium">
-        <div class="container">
-          <div class="row multi-columns-row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="content-box">
-                <div class="content-box-image"><img src="assets/images/finance/finance1.jpg" alt="Consult With Us" />
-                </div>
-                <h3 class="content-box-title font-serif">Consult With Us</h3>Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Id pariatur molestiae illum cum facere deserunt a enim harum eaque fugit.
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="content-box">
-                <div class="content-box-image"><img src="assets/images/finance/finance2.jpg"
-                    alt="Take Proper Strategy" /></div>
-                <h3 class="content-box-title font-serif">Take Proper Strategy</h3>Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Id pariatur molestiae illum cum facere deserunt a enim harum eaque fugit.
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="content-box">
-                <div class="content-box-image"><img src="assets/images/finance/finance3.jpg"
-                    alt="Grow Business Bigger" /></div>
-                <h3 class="content-box-title font-serif">Grow Business Bigger</h3>Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Id pariatur molestiae illum cum facere deserunt a enim harum eaque fugit.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial"
-        data-background="assets/images/testimonial_bg.jpg">
-        <div class="testimonials-slider pt-140 pb-140">
-          <ul class="slides">
-            <li>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="module-icon"><span><img src="./assets/images/LOGO-PNG.png" height="120" width="100"
-                          alt=""></span></div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <blockquote class="testimonial-text font-alt">“TDS did a great job with the
-                      multiple aspects of online marketing for several of our companies. Through their efforts, our
-                      companies she’s worked with have been at the forefront of the latest internet developments and
-                      advertising methods.”</blockquote>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-4 col-sm-offset-4">
-                    <div class="testimonial-author">
-                      <div class="testimonial-caption font-alt">
-                        <div class="testimonial-title">Jack Woods</div>
-                        <div class="testimonial-descr">SomeCompany INC, CEO</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="module-icon"><span><img src="./assets/images/Untitled-1.png" height="120" width="100"
-                          alt=""></span></div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <blockquote class="testimonial-text font-alt">“During our partnership with TDS, we were shown
-                      promising new ways to market our company. Today we work with statistics and more accurate data and
-                      realize the digital space is an essential tool for Real Estate to position itself in an
-                      increasingly competitive field."</blockquote>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-4 col-sm-offset-4">
-                    <div class="testimonial-author">
-                      <div class="testimonial-caption font-alt">
-                        <div class="testimonial-title">Jim Stone</div>
-                        <div class="testimonial-descr">SomeCompany INC, CEO</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="module-icon"><span><img src="./assets/images/AL-REHMAN-GOLD-LOGO.png" height="120"
-                          width="100" alt=""></span></div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <blockquote class="testimonial-text font-alt">"TDS has done a wonderful job redesigning our website
-                      to take it from plain and functional to amazingly professional. We would highly recommend TDS to
-                      any business that needs a hand improving their internet traffic or their business."</blockquote>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-4 col-sm-offset-4">
-                    <div class="testimonial-author">
-                      <div class="testimonial-caption font-alt">
-                        <div class="testimonial-title">Jim Stone</div>
-                        <div class="testimonial-descr">SomeCompany INC, CEO</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="module-icon"><span><img src="./assets/images/AL-REHMAN-GOLD-LOGO.png" height="120"
-                          width="100" alt=""></span></div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <blockquote class="testimonial-text font-alt">"We have a great business relationship with TDS. We
-                      had worked with several other marketing companies in the past who didn't deliver results and I'm
-                      happy to say TDS is doing that for us. They help bring our vision to life in a way that makes
-                      sense.".</blockquote>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-4 col-sm-offset-4">
-                    <div class="testimonial-author">
-                      <div class="testimonial-caption font-alt">
-                        <div class="testimonial-title">Jim Stone</div>
-                        <div class="testimonial-descr">SomeCompany INC, CEO</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="module-icon"><span><img src="./assets/images/AL-REHMAN-GOLD-LOGO.png" height="120"
-                          width="100" alt=""></span></div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <blockquote class="testimonial-text font-alt">TDS is a great company. They Managed
-                      all of my digital marketing needs including SEO, PPC, social media, content marketing, analytics,
-                      and display. Very organized, loved how TDS developed a marketing calendar that
-                      showed everything she had planned. She increased my performance by 25%. I will continue to work
-                      with her..</blockquote>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-4 col-sm-offset-4">
-                    <div class="testimonial-author">
-                      <div class="testimonial-caption font-alt">
-                        <div class="testimonial-title">Jim Stone</div>
-                        <div class="testimonial-descr">SomeCompany INC, CEO</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="module-icon"><span><img src="./assets/images/sameen-ijaz.png" height="180" width="150"
-                          alt=""></span></div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <blockquote class="testimonial-text font-alt">TDS are great and absolutely knows what They are doing
-                      in the realm of digital media. Anyone who wants to work with someone who knows this stuff inside
-                      and out should contact her straight away.</blockquote>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-4 col-sm-offset-4">
-                    <div class="testimonial-author">
-                      <div class="testimonial-caption font-alt">
-                        <div class="testimonial-title">Adele Snow</div>
-                        <div class="testimonial-descr">SomeCompany INC, CEO</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <h6>.</h6>
-      <section class="module pt-0 pb-0">
-        <div class="row position-relative m-0">
-          <div class="col-xs-12 col-md-6 side-image" data-background="assets/images/section-14.jpg"></div>
-          <div class="col-xs-12 col-md-6 col-md-offset-6">
-            <div class="row finance-image-content">
-              <div class="col-md-10 col-md-offset-1">
-                <h2 class="module-title font-alt align-left">Practice Areas</h2>
-                <div class="row multi-columns-row">
-                  <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="alt-features-item">
-                      <div class="alt-features-icon"><span class="icon-briefcase"></span></div>
-                      <h3 class="alt-features-title font-alt">Business consulting</h3>Edit
-                    </div>
-                    <div class="alt-features-item">
-                      <div class="alt-features-icon"><span class="icon-puzzle"></span></div>
-                      <h3 class="alt-features-title font-alt">Marketing Strategy</h3>Edit
-                    </div>
-                    <div class="alt-features-item">
-                      <div class="alt-features-icon"><span class="icon-pricetags"></span></div>
-                      <h3 class="alt-features-title font-alt">Software Solutions</h3>Edit
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="alt-features-item">
-                      <div class="alt-features-icon"><span class="icon-wallet"></span></div>
-                      <h3 class="alt-features-title font-alt">Digital Marketing</h3>Edit
-                    </div>
-                    <div class="alt-features-item">
-                      <div class="alt-features-icon"><span class="icon-laptop"></span></div>
-                      <h3 class="alt-features-title font-alt">BPO</h3>Edit
-                    </div>
-                    <div class="alt-features-item">
-                      <div class="alt-features-icon"><span class="icon-linegraph"></span></div>
-                      <h3 class="alt-features-title font-alt">Data Analytics</h3>Edit
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="module pb-0" id="works">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
-              <h2 class="module-title font-alt">Experties</h2>
-              <div class="module-subtitle font-serif"></div>
-            </div>
-          </div>
-        </div>
-        <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-          <li class="work-item illustration webdesign"><a href="portfolio_single_featured_image1.html">
-              <div class="work-image"><img src="assets/images/shop/pexels-luis-gomes-546819.jpg" alt="Portfolio Item" />
-              </div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">Software Solutions</h3>
-                <div class="work-descr">Development</div>
-              </div>
-            </a></li>
-          <li class="work-item marketing photography"><a href="portfolio_single_featured_image2.html">
-              <div class="work-image"><img src="assets/images/shop/pexels-tracy-le-blanc-607812.jpg"
-                  alt="Portfolio Item" />
-              </div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">Digital Marketing</h3>
-                <div class="work-descr">Marketing</div>
-              </div>
-            </a></li>
-          <li class="work-item illustration photography"><a href="portfolio_single_featured_slider1.html">
-              <div class="work-image"><img src="assets/images/shop/pexels-mart-production-7709166.jpg"
-                  alt="Portfolio Item" />
-              </div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">BPO</h3>
-                <div class="work-descr">Connecting</div>
-              </div>
-            </a></li>
-          <li class="work-item marketing photography"><a href="portfolio_single_featured_slider2.htmll">
-              <div class="work-image"><img src="assets/images/shop/pexels-kaboompics-com-6229.jpg"
-                  alt="Portfolio Item" />
-              </div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">Business Strategy</h3>
-                <div class="work-descr">Solutions</div>
-              </div>
-            </a></li>
-          <li class="work-item illustration webdesign"><a href="portfolio_single_featured_video1.html">
-              <div class="work-image"><img src="assets/images/shop/pexels-andrea-piacquadio-3760067.jpg"
-                  alt="Portfolio Item" />
-              </div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">Business Consultancy</h3>
-                <div class="work-descr">Work</div>
-              </div>
-            </a></li>
-          <li class="work-item marketing webdesign"><a href="portfolio_single_featured_video2.html">
-              <div class="work-image"><img src="assets/images/shop/pexels-negative-space-97080.jpg"
-                  alt="Portfolio Item" />
-              </div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">Data Analytics</h3>
-                <div class="work-descr">Handling</div>
-              </div>
-            </a></li>
-        </ul>
-      </section>
-      <section class="module-small bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
-              <div class="callout-text font-alt">
-                <h3 class="callout-title">Want to see more works?</h3>
-                <p>We are always open to interesting projects.</p>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-              <div class="callout-btn-box"><a class="btn btn-w btn-round" href="portfolio_boxed_gutter_col_3.html">Lets
-                  view portfolio</a></div>
-            </div>
-          </div>
-        </div>
-      </section>
+						<a href="#0" class="cd-btn btn btn-primary solid">Learn more</a>
+					</div> <!-- .cd-full-width -->
 
-      <section class="module" id="news">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
-              <h2 class="module-title font-alt">Latest blog posts</h2>
-              <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like
-                these sweet mornings of spring which I enjoy with my whole heart.</div>
-            </div>
-          </div>
-          <div class="row multi-columns-row post-columns">
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <div class="post mb-20">
-                <div class="post-thumbnail"><a href="#"><img src="assets/images/post-1.jpg"
-                      alt="Blog-post Thumbnail" /></a></div>
-                <div class="post-header font-alt">
-                  <h2 class="post-title"><a href="#">Our trip to the Alps</a></h2>
-                  <div class="post-meta">By&nbsp;<a href="#">Mark Stone</a>&nbsp;| 23 November | 3 Comments
-                  </div>
-                </div>
-                <div class="post-entry">
-                  <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
-                    which I enjoy with my whole heart.</p>
-                </div>
-                <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <div class="post mb-20">
-                <div class="post-thumbnail"><a href="#"><img src="assets/images/post-2.jpg"
-                      alt="Blog-post Thumbnail" /></a></div>
-                <div class="post-header font-alt">
-                  <h2 class="post-title"><a href="#">Shore after the tide</a></h2>
-                  <div class="post-meta">By&nbsp;<a href="#">Andy River</a>&nbsp;| 11 November | 4 Comments
-                  </div>
-                </div>
-                <div class="post-entry">
-                  <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
-                    which I enjoy with my whole heart.</p>
-                </div>
-                <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <div class="post mb-20">
-                <div class="post-thumbnail"><a href="#"><img src="assets/images/post-3.jpg"
-                      alt="Blog-post Thumbnail" /></a></div>
-                <div class="post-header font-alt">
-                  <h2 class="post-title"><a href="#">We in New Zealand</a></h2>
-                  <div class="post-meta">By&nbsp;<a href="#">Dylan Woods</a>&nbsp;| 5 November | 15 Comments
-                  </div>
-                </div>
-                <div class="post-entry">
-                  <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
-                    which I enjoy with my whole heart.</p>
-                </div>
-                <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="module bg-dark-60 request-cta" data-background="assets/images/finance/rqst_bg.jpg">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-              <h2 class="font-alt">Request a call back</h2>
-              <p>Would you like to speak to one of our financial advisers over the phone? Just submit your details and
-                we’ll be in touch shortly. You can also email us if you would prefer.</p>
-            </div>
-            <div class="col-sm-8">
-              <div class="row">
-                <form class="form rqst-form" id="requestACall" role="form" method="post" action="php/request_call.php">
-                  <div class="form-group col-sm-6 col-xs-12">
-                    <input class="form-control input-lg" type="text" name="name" placeholder="Name" />
-                  </div>
-                  <div class="form-group col-sm-6 col-xs-12">
-                    <select class="form-control input-lg" name="subject">
-                      <option value="subject1" disabled="" selected="">Subject</option>
-                      <option value="BusinessConsulting">Business consulting</option>
-                      <option value="MarketingStrategy">Marketing Strategy</option>
-                      <option value="TaxesAdvisory">Taxes Advisory</option>
-                      <option value="InvestmentPlanning">Investment Planning</option>
-                      <option value="ITManagement">IT Management</option>
-                      <option value="DataAnalytics">Data Analytics</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-sm-6 col-xs-12">
-                    <input class="form-control input-lg" type="text" name="phone" placeholder="Phone Number" />
-                  </div>
-                  <div class="form-group col-sm-6 col-xs-12">
-                    <button class="btn btn-border-w btn-circle btn-block" id="racSubmit" type="submit"><i
-                        class="fa fa-paper-plane-o"></i> Submit</button>
-                  </div>
-                  <div id="requestFormResponse"></div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="module pt-0 pb-0" id="contact">
-        <div class="row position-relative m-0">
-          <div class="col-xs-12 col-md-6">
-            <div class="row finance-image-content">
-              <div class="col-md-10 col-md-offset-1">
-                <h2 class="module-title font-alt align-left">Get in touch</h2>
-                <form id="contactForm" role="form" method="post" action="php/contact.php">
-                  <div class="form-group">
-                    <label class="sr-only" for="name">Name</label>
-                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*"
-                      required="required" data-validation-required-message="Please enter your name." />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <label class="sr-only" for="email">Email</label>
-                    <input class="form-control" type="email" id="email" name="email" placeholder="Your Email*"
-                      required="required" data-validation-required-message="Please enter your email address." />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*"
-                      required="required" data-validation-required-message="Please enter your message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="text-center">
-                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
-                  </div>
-                </form>
-                <div class="ajax-response font-alt" id="contactFormResponse"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-6 col-md-offset-6 side-image p-0">
-            <section id="map-section">
-              <div id="map"></div>
-            </section>
-          </div>
-        </div>
-      </section>
-      <div class="module-small bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="widget">
-                <h3 class="widget-title font-alt">Thinko Digital Marketing Solutions</h3>
-                <p>One global team driving value in the post-digital era</p>
+					<div class="cd-bg-video-wrapper" data-video="videos/video">
+						<!-- video element will be loaded using jQuery -->
+					</div> <!-- .cd-bg-video-wrapper -->
+				</li>
+			</ul> <!--/ cd-hero-slider -->
+
+		<div class="cd-slider-nav">
+			<nav>
+				<span class="cd-marker item-1"></span>
+				<ul>
+					<li class="selected"><a href="#0"><i class="fa fa-bicycle"></i> Invent</a></li>
+					<li><a href="#0"><i class="fa fa-hotel"></i> Dream</a></li>
+					<li><a href="#0"><i class="fa fa-android"></i> Tech</a></li>
+					<li class="video"><a href="#0"><i class="fa fa-video-camera"></i> Video</a></li>
+				</ul>
+			</nav> 
+		</div> <!-- .cd-slider-nav -->
+
+		</div><!--/ Main slider end -->    	
+    </section> <!--/ Slider end -->
+
+
+    <!-- Service box start -->
+	<section id="service" class="service angle">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 heading">
+					<span class="title-icon pull-left"><i class="fa fa-calendar"></i></span>
+					<h2 class="title">Services We Provide <span class="title-desc">A Quality Experience Team with 4 years experience</span></h2>
+				</div>
+			</div><!-- Title row end -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".5s">
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-arrows"></i></span>
+							<h3>Web Design & Development</h3>
+							<p>We create stunning dynamic websites and web applications with modern designs to keep your demand of the software-based revolution</p>
+						</div>
+					</div><!--/ End first service -->
+
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".8s" >
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-android"></i></span>
+							<h3>Apps Development</h3>
+							<p>We are proficient in both (IOS Android and Windows)and cross platforms(React,React Native) Mobile application development.
+</p>
+						</div>
+						
+					</div>
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".8s" >
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-shopping-cart"></i></span>
+							<h3>E-Commerce Websites</h3>
+							<p>We are proficient in both (IOS Android and Windows)and cross platforms(React,React Native) Mobile application development.
+</p>
+						</div>
+						
+					</div>
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".8s" >
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-line-chart"></i></span>
+							<h3>Digital Marketing</h3>
+							<p>We create ecommerce solutions that are packed with features,beautifully designed,robust functionality, search engine optimized and fully social media integrated for better reach.
+</p>
+						</div>
+						
+					</div><!--/ End Second service -->
+
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.1s">
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-paint-brush"></i></span>
+							<h3>Graphic Designing</h3>
+							<p>We create website designs that are in-line with the current international trend aesthetically pleasing and eye catching at the same time, which in turn helps in retaining users.
+</p>
+						</div>
+					</div><!--/ End Third service -->
+
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.4s">
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-database"></i></span>
+							<h3>Data Management</h3>
+							<p>We are serving in the field of data management and analytics.We provide you professionals to manage your important data safely and sound. 
+.</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.4s">
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-briefcase"></i></span>
+							<h3>Marketing Consultency</h3>
+							<p>Marketing plays a vital role in consultancy for your business queries. Our consultants are experienced and well known in the digital market. 
+</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.4s">
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-headphones"></i></span>
+							<h3>BPO</h3>
+							<p>We are providing specialised services that cater to numerous non-center commercial enterprise activities  become more prominent your business in the digital market.</p>
+						</div>
+					</div><!--/ <!-/ End 4th service -->
+				</div>
+			</div><!-- Content row end -->
+		</div><!--/ Container end -->
+	</section><!--/ Service box end -->
+   
+	<!-- Portfolio start -->
+	<section id="portfolio" class="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 heading">
+					<span class="title-icon classic pull-left"><i class="fa fa-suitcase"></i></span>
+					<h2 class="title classic">Our Awesome Work</h2>
+				</div>
+			</div> <!-- Title row end -->
+
+			<!--Isotope filter start -->
+			<div class="row text-right">
+				<div class="isotope-nav" data-isotope-nav="isotope">
+	<ul>
+       	<li><a href="#" class="active" data-filter="*">All</a></li>
+	     <li><a href="#"  data-filter="*">Digital Marketing </a></li>
+	     <li><a href="#" data-filter=".development">Web Development</a></li>
+	     
+	      <li><a href="#" data-filter=".joomla">SEO</a></li>
+	        <li><a href="#" data-filter=".wordpress">Graphic designing</a></li>
+	         <li><a href="#" data-filter=".wordpress">Wordpress</a></li>
+	        
+
+
+
+
+	
+	
+	
+	
+					</ul>
+				</div>
+			</div><!-- Isotope filter end -->
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div id="isotope" class="isotope">
+					<div class="col-sm-3 web-design isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/p1.jpg" alt="">
+								<figcaption>
+									<h3>Digital Marketing</h3>
+									<a  href="portfolio-item.html"></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/p1.jpg"><i class="fa fa-eye"></i></a>            
+								</figcaption>			
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 development isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/p2.jpg" alt="">
+								<figcaption>
+									<h3>Web Development</h3>
+									<a href="portfolio-item.html"></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/p2.jpg"><i class="fa fa-eye"></></i></a>            
+								</figcaption>				
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 joomla isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/p8.jpg" alt="">
+								<figcaption>
+									<h3>BPO</h3>
+									<a  href="portfolio-item.html"></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/p8.jpg"><i class="fa fa-eye"></></i></a>            
+								</figcaption>				
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 wordpress isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/p9.jpg" alt="">
+								<figcaption>
+									<h3>Wordpress Development</h3>
+									<a href="portfolio-item.html"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/p9.jpg"><i class="fa fa-eye"></></i></a>            
+								</figcaption>					
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 joomla isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/p3.jpg" alt="">
+								<figcaption>
+									<h3>SEM</h3>
+									<a  href="portfolio-item.html"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/p3.jpg"><i class="fa fa-eye"></></i></a>            
+								</figcaption>					
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 development isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/p10.jpg" alt="">
+								<figcaption>
+									<h3>Photography</h3>
+									<a href="portfolio-item.html"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/p10.jpg"><i class="fa fa-eye"></></i></a>            
+								</figcaption>					
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 development isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/p11.jpg" alt="">
+								<figcaption>
+									<h3>SEO</h3>
+									<a  href="portfolio-item.html"></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/p11.jpg"><i class="fa fa-eye"></></i></a>            
+								</figcaption>					
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 development isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/p7.jpg" alt="">
+								<figcaption>
+									<h3>E-commerce Website</h3>
+									<a  href="portfolio-item.html"></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/p7.jpg"><i class="fa fa-eye"></i></a>            
+								</figcaption>					
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+				</div><!-- Isotope content end -->
+			</div><!-- Content row end -->
+		</div><!-- Container end -->
+	</section><!-- Portfolio end -->
+	<br>
+	<br>
+
+	<!-- Counter Strat -->
+	<section class="ts_counter no-padding">
+		<div class="container-fluid">
+			<div class="row facts-wrapper wow fadeInLeft text-center">
+				<div class="facts one col-md-3 col-sm-6">
+					<span class="facts-icon"><i class="fa fa-user"></i></span>
+					<div class="facts-num">
+						<span class="counter">1200</span>
+					</div>
+					<h3>Clients</h3> 
+				</div>
+
+				<div class="facts two col-md-3 col-sm-6">
+					<span class="facts-icon"><i class="fa fa-institution"></i></span>
+					<div class="facts-num">
+						<span class="counter">1277</span>
+					</div>
+					<h3>Item Sold</h3> 
+				</div>
+
+				<div class="facts three col-md-3 col-sm-6">
+					<span class="facts-icon"><i class="fa fa-suitcase"></i></span>
+					<div class="facts-num">
+						<span class="counter">869</span>
+					</div>
+					<h3>Projects</h3> 
+				</div>
+
+				<div class="facts four col-md-3 col-sm-6">
+					<span class="facts-icon"><i class="fa fa-trophy"></i></span>
+					<div class="facts-num">
+						<span class="counter">76</span>
+					</div>
+					<h3>Awards</h3> 
+				</div>
+
+			</div>
+		</div><!--/ Container end -->
+    </section><!--/ Counter end -->
+
+	<!-- Feature box start -->
+	<section id="feature" class="feature">
+		<div class="container">
+			<div class="row">
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-heart-o"></i></span>
+					<div class="feature-content">
+						<h3>Clean &amp; Modern Design</h3>
+						<p> Our designers are always ready to design websites in a modern methods and advanced ways ready for upcoming challenges. </p>
+					</div>
+				</div><!--/ End first featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-codepen"></i></span>
+					<div class="feature-content">
+						<h3>Useful Shortcodes</h3>
+						<p>Short codes are quick and memorable. We use maximum shortcodes for better results and for ease to use. 
+</p>
+					</div>
+				</div><!--/ End 2nd featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-film"></i></span>
+					<div class="feature-content">
+						<h3>Digital Updates</h3>
+						<p>We can update our clients with their respective projects and give daily base reports for their satisfaction. </p>
+					</div>
+				</div><!--/ End 3rd featurebox -->
+			</div><!-- Content row end -->
+
+			<div class="gap-40"></div>
+
+			<div class="row">
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-newspaper-o"></i></span>
+					<div class="feature-content">
+						<h3>Multipurpose Concept</h3>
+						<p>Multipurpose means serving or being able to serve more than one purpose. In this concept, we provide multiple facilities like services and useful information</p>
+					</div>
+				</div><!--/ End 1st featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-desktop"></i></span>
+					<div class="feature-content">
+						<h3>Responsive Layout</h3>
+						<p>A responsive layout will automatically regulate for different screen sizes and viewports. Our web designers ensure all these types of possibilities do not happen. 
+</p>
+					</div>
+				</div><!--/ End 2nd featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-pagelines"></i></span>
+					<div class="feature-content">
+						<h3>Light wight Performance</h3>
+						<p> Our created websites are smoothly working and not time taking. Once a click is enough for opening our sites and your satisfaction. 
+</p>
+					</div>
+				</div><!--/ End 3rd featurebox -->
+
+			</div><!-- Content row end -->
+
+			<div class="gap-40"></div>
+
+			<div class="row">
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-recycle"></i></span>
+					<div class="feature-content">
+						<h3>Free Lifetime Updates</h3>
+						<p>"Lifetime Free Upgrades" is a maintenance agreement which guarantees all updates and new versions. We give you this beautiful opportunity for your betterment. 
+</p>
+					</div>
+				</div><!--/ End first featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-diamond"></i></span>
+					<div class="feature-content">
+						<h3>Endless Possibilites</h3>
+						<p>Possibilities are always endless Without end; having no end or conclusion. Our services are always endless and totally customer friendly. 
+</p>
+					</div>
+				</div><!--/ End first featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-whatsapp"></i></span>
+					<div class="feature-content">
+						<h3>24/7 Live Support</h3>
+						<p>24/7 SUPPORT means customers can get help and find answers to their queries as soon as they come up 24/7 and in real time. We are available 24/7 in working days. 
+</p>
+					</div>
+				</div><!--/ End first featurebox -->
+			</div><!-- Content row end -->
+
+		</div><!--/ Container end -->
+	</section><!--/ Feature box end -->
+
+
+	<section id="image-block" class="image-block no-padding">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 ts-padding" style="height:650px;background:url(images/pages/what.png) 50% 50% / cover no-repeat;">
+				</div>
+				<div class="col-md-6 ts-padding img-block-right">
+					<div class="img-block-head text-center">
+						<h2>Know More About Our Company</h2>
+						<h3>Why Choose Us</h3>
+						<p>We bring our numerous history of advertising and marketing, layout, branding, public circle of relatives contributors, research and strategic making plans to work for your enterprise. Not only will your products look great they will get results.
+						</p>
+					</div>
+
+					<div class="gap-30"></div>
+
+					<div class="image-block-content">
+						<span class="feature-icon pull-left" ><i class="fa fa-bicycle"></i></span>
+						<div class="feature-content">
+							<h3>Tons of Features</h3>
+							<p>We give you our professionals and they apply all the features of your respective bussiness.</p>
+						</div>
+					</div><!--/ End 1st block -->
+
+					<div class="image-block-content">
+						<span class="feature-icon pull-left" ><i class="fa fa-diamond"></i></span>
+						<div class="feature-content">
+							<h3>PowerPack Theme</h3>
+							<p>Our services are client based and they have the right to customise any data or site adjustment.</p>
+						</div>
+					</div><!--/ End 1st block -->
+
+					<div class="image-block-content">
+						<span class="feature-icon pull-left" ><i class="fa fa-street-view"></i></span>
+						<div class="feature-content">
+							<h3>Day Night Support</h3>
+							<p>24/7 our support and services are available for our customers.</p>
+						</div>
+					</div><!--/ End 1st block -->
+
+				</div>
+			</div>
+		</div>
+	</section><!--/ Image block end -->
+
+
+	<!-- Team start -->
+	<section id="team" class="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 heading">
+					<span class="title-icon pull-left"><i class="fa fa-weixin"></i></span>
+					<h2 class="title">Meet with our Team <span class="title-desc">A Quality Experience Team with 4 years experience</span></h2>
+				</div>
+			</div><!-- Title row end -->
+
+			<div class="row text-center">
+				<div class="col-md-3 col-sm-6">
+					<div class="team wow slideInLeft">
+						<div class="img-hexagon">
+							<img src="images/team/team1.jpg" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<div class="team-content">
+							<h3>Vosgi Varduhi</h3>
+							<p>Web Designer</p>
+							<div class="team-social">
+								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+								<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+								<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+							</div>
+						</div>
+					</div>	
+				</div><!--/ Team 1 end -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team wow slideInLeft">
+						<div class="img-hexagon">
+							<img src="images/team/team2.jpg" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<div class="team-content">
+							<h3>Robert Aleska</h3>
+							<p>Graphic Designer</p>
+							<div class="team-social">
+								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+								<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+								<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!--/ Team 2 end -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team wow slideInRight">
+						<div class="img-hexagon">
+							<img src="images/team/team3.jpg" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<div class="team-content">
+							<h3>Taline Voski</h3>
+							<p>Digital Marketer</p>
+							<div class="team-social">
+								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+								<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+								<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!--/ Team 3 end -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team animate wow slideInRight">
+						<div class="img-hexagon">
+							<img src="images/team/team4.jpg" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<div class="team-content">
+							<h3>Alban Spencer</h3>
+							<p>Content Writer</p>
+							<div class="team-social">
+								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+								<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+								<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!--/ Team 4 end -->
+			</div><!--/ Content row end -->
+		</div><!--/ Container end -->
+    </section><!--/ Team end -->
+
+    <!-- Parallax 1 start -->
+	<section class="parallax parallax1">
+		<div class="parallax-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2>Are You Ready to work with us !</h2>
+			
+					<p>
+						<a href="company.html" class="btn btn-primary white">LEARN MORE</a>
+						<a href="contact.html" class="btn btn-primary solid">Get In Touch</a>
+					</p>
+				</div>
+			</div>
+		</div><!-- Container end -->
+    </section><!-- Parallax 1 end -->
+
+    <!-- Pricing table start -->
+	<!-- <!- <section id="pricing" class="pricing">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 heading">
+					<span class="title-icon pull-left"><i class="fa fa-university"></i></span>
+					<h2 class="title">Pricing Table <span class="title-desc">We Love to Work with Passion</span></h2>
+				</div>
+			</div><!- Title row end -->
+	  		<!-- <div class="row">
+				<!- plan start -->
+				<!-- <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+				    <div class="plan text-center">
+				        <span class="plan-name">Basic <small>Monthly plan</small></span> -->
+				     <!--  -->
+			<!-- 	        <span class="plan-name">Premium <small>Monthly plan</small></span>
+				        <p class="plan-price"><sup class="currency">$</sup><strong>399</strong><sub>.99</sub></p>
+				        <ul class="list-unstyled">
+				            <li>100GB Monthly Bandwidth</li>
+				            <li>$100 Google AdWords</li>
+				            <li>100 Domain Hosting</li>
+				            <li>SSL Shopping Cart</li>
+				            <li>24/7 Live Support</li>
+				        </ul>
+				        <a class="btn btn-primary" href="#.">Sign Up</a>
+				    </div> -->
+				</div><!-- plan end -->
+			</div><!--/ Content row end -->
+		</div><!--/  Container end-->
+	</section> <!--/ Pricing table end -->
+ <br>
+
+<h2 class="text-center">CUSTOMER FEEDBACK</h2>
+<br>
+	<!-- Testimonial start-->
+
+	<section class="testimonial parallax parallax2">
+		<div class="parallax-overlay"></div>
+	  	<div class="container">
+		    <div class="row">
+			    <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">
+			        <div class="item">
+			          	<div class="testimonial-thumb">
+			            	<img src="images/team/testimonial1.jpg" alt="testimonial">
+			          	</div>
+			          	<div class="testimonial-content">
+				            <p class="testimonial-text">
+				            I am really satisfied with THINKO DIGITAL MARKETING SOLUTIONS and recmond to those who are looking for digital marketing experts, I think this is the best platform. They provide us the service of content writing and they do a good job in this specific field. The content is very unique and useful for our website
+				            </p>
+			            	<h3 class="name">Sarah Arevik<span>Chief Executive</span></h3>
+			          	</div>
+			        </div>
+			        <div class="item">
+			          	<div class="testimonial-thumb">
+			            	<img src="images/team/testimonial2.jpg" alt="testimonial">
+			          	</div>
+				        <div class="testimonial-content">
+				            <p class="testimonial-text">
+				              THINKO provides us complete solutions regarding digital marketing and they prove themselves. They provide me the services of web development at a very nominal price in the given time period. They satisfied me with all aspects and they give reports on a daily basis. I can congratulate all the team of THINKO for your good work. 
+
+
+				            </p>
+				            <h3 class="name">Narek Bedros<span>Sr. Manager</span></h3>
+				        </div>
+			        </div>
+			        <div class="item">
+				        <div class="testimonial-thumb">
+				            <img src="images/team/testimonial3.jpg" alt="testimonial">
+				        </div>
+			          	<div class="testimonial-content">
+				            <p class="testimonial-text">
+				              THINKO is a beautiful platform in the digital world. They contribute very well in the digital industry with a serious attitude. This agency gives me a service of graphic designing as well as consultancy. The consultant's attitude was very impressive and he is a very nice person.  Thanks to THINKO for providing such trusty solutions and helping to achieve goals. 
+
+				            </p>
+			            	<h3 class="name">Taline Lucine<span>Sales Manager</span></h3>
+			          	</div>
+			        </div>
+			    </div><!--/ Testimonial carousel end-->
+		    </div><!--/ Row end-->
+	  	</div><!--/  Container end-->
+	</section><!--/ Testimonial end-->
+
+
+	<!-- Clients start -->
+	<section id="clients" class="clients">
+		<div class="container">
+			<div class="row wow fadeInLeft">
+		      <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client1.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client2.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client3.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client4.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client5.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client6.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client7.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client8.png" alt="client">
+		          </a>
+		        </figure>
+		         <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client.png" alt="client">
+		          </a>
+		        </figure>
+		      </div><!-- Owl carousel end -->
+	    	</div><!-- Main row end -->
+		</div><!--/ Container end -->
+	</section><!--/ Clients end -->
+	
+
+	<!-- Footer start -->
+	<!-- <footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 footer-widget">
+			<h3 class="widget-title">Thinko Digital Marketing Solutions</h3>
+			 <p>One global team driving multiple value in the post-digital era</p>
                 <p>Phone: +1 (609)736-0951</p>Fax: +1 (609)736-0951
                 <p>Email:<a href="#"> contact@thinkodigital.com</a></p>
-              </div>
             </div>
-            <div class="col-sm-3">
+        </div>
+          <div class=" col-md-4 col-sm-12 footer-widget">
               <div class="widget">
                 <h5 class="widget-title font-alt">Recent Comments</h5>
                 <ul class="icon-list">
@@ -761,7 +934,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-sm-3">
+            <div class=" col-md-4 col-sm-12 footer-widget">
               <div class="widget">
                 <h5 class="widget-title font-alt">Blog Categories</h5>
                 <ul class="icon-list">
@@ -798,46 +971,297 @@
             </div>
           </div>
         </div>
-      </div>
-      <hr class="divider-d">
-      <footer class="footer bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <p class="copyright font-alt">&copy; 2017&nbsp;<a href="index.html">thinkodigital</a>, All Rights Reserved
-              </p>
-            </div>
-            <div class="col-sm-6">
-              <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i
-                    class="fa fa-skype"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-    <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
-  </main>
-  <!--  
-    JavaScripts
-    =============================================
-    -->
-  <script src="assets/lib/jquery/dist/jquery.js"></script>
-  <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="assets/lib/wow/dist/wow.js"></script>
-  <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
-  <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
-  <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-  <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
-  <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-  <script src="assets/lib/smoothscroll.js"></script>
-  <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-  <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-  <script async="" defer=""
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK2Axt8xiFYMBMDwwG1XzBQvEbYpzCvFU"></script>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
+      </div> -->
+      <!-- -->
+				<!-- 	<div class="latest-post-items media">
+							<div class="latest-post-content media-body">
+								<h4><a href="#">Bulgaria claims to find Europe's 'oldest town'</a></h4>
+								<p class="post-meta">
+									<span class="author">Posted by John Doe</span>
+									<span class="post-meta-cat">in<a href="#"> Blog</a></span>
+								</p>
+							</div>
+						</div> --><!-- 1st Latest Post end -->
+<!-- 
+						<div class="latest-post-items media">
+							<div class="latest-post-content media-body">
+								<h4><a href="#">Few Answers in Case of Murdered Law Professor</a></h4>
+								<p class="post-meta">
+									<span class="date"><i class="icon icon-calendar"></i> Mar 15, 2015</span>
+									<span class="post-meta-comments"><i class="icon icon-bubbles4"></i> <a href="#">03</a></span>
+								</p>
+							</div>
+						</div> --><!-- 2nd Latest Post end -->
 
+						<!-- <div class="latest-post-items media">
+							<div class="latest-post-content media-body">
+								<h4><a href="#">Over the year we have lots of experience in our field</a></h4>
+								<p class="post-meta">
+									<span class="date"><i class="icon icon-calendar"></i> Apr 17, 2015</span>
+									<span class="post-meta-comments"><i class="icon icon-bubbles4"></i> <a href="#">14</a></span>
+								</p>
+							</div> -->
+						<!-- </div> --><!-- 3rd Latest Post end -->
+	
+				<!-- </div> --><!--/ End Recent Posts-->
+				
+
+				<!-- <div class="col-md-4 col-sm-12 footer-widget">
+					<h3 class="widget-title">Flickr Photos</h3>
+
+					<div class="img-gallery">
+						<div class="img-container">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/1.jpg">
+								<img src="images/gallery/1.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/2.jpg">
+								<img src="images/gallery/2.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/3.jpg">
+								<img src="images/gallery/3.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/4.jpg">
+								<img src="images/gallery/4.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/5.jpg">
+								<img src="images/gallery/5.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/6.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/7.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/8.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/9.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div><!/ end flickr --> 
+
+				<!-- div class="col-md-3 col-sm-12 footer-widget footer-about-us">
+					<h3 class="widget-title">About Craft</h3>
+					<p>We are a awward winning multinational company. We believe in quality and standard worldwide.</p>
+					<h4>Address</h4>
+					<p>1102 Saint Marys, Junction City, KS</p>
+					<div class="row">
+						<div class="col-md-6">
+							<h4>Email:</h4>
+							<p>info@craftbd.com</p> -->
+					<!-- 	</div>
+						<div class="col-md-6">
+							<h4>Phone No.</h4>
+							<p>+(785) 238-4131</p>
+						</div>
+					</div>
+                    <form action="#" role="form">
+                        <div class="input-group subscribe">
+                            <input type="email" class="form-control" placeholder="Email Address" required="">
+                            <span class="input-group-addon">
+                              <button class="btn" type="submit"><i class="fa fa-envelope-o"> </i></button>
+                            </span>                        
+                        </div>
+                    </form> -->
+				<!-- </div> --><!--/ end about us
+
+			</div><!- Row end -->
+		<!-- </div> --><!-- Container end -->
+	<!-- </footer> --><!-- Footer end -->
+	
+ 
+	<!-- Copyright start -->
+	<!-- Footer start -->
+	<footer id="footer" class="footer">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-4 col-sm-12 footer-widget">
+					<h3 class="widget-title">Recent Posts</h3>
+
+					<div class="latest-post-items media">
+							<div class="latest-post-content media-body">
+								<h4>New Technology in this era</h4>
+								<p class="post-meta">
+									<span class="author">Trending top ranking technologies</span>
+									
+								</p>
+							</div>
+						</div><!-- 1st Latest Post end -->
+
+						<div class="latest-post-items media">
+							<div class="latest-post-content media-body">
+								<h4>Over the Year ago entered in the Digital Marketing world</a></h4>
+								<p class="post-meta">
+									<!-- <span class="date"><i class="icon icon-calendar"></i>2019</span> -->
+									
+								</p>
+							</div>
+						</div><!-- 2nd Latest Post end -->
+
+						<div class="latest-post-items media">
+							<div class="latest-post-content media-body">
+								<h4><a href="#">We are experts in Digital Marketing field</a></h4>
+								<!-- <p class="post-meta">
+									<span class="date"><i class="icon icon-calendar"></i> JAN 17, 2019</span>
+									<span class="post-meta-comments"><i class="icon icon-bubbles4"></i> <a href="#">14</a></span>
+								</p> -->
+							</div>
+						</div><!-- 3rd Latest Post end -->
+	
+				</div><!--/ End Recent Posts-->
+
+				
+
+				<div class="col-md-4 col-sm-12 footer-widget">
+					<h3 class="widget-title">Photos</h3>
+
+					<div class="img-gallery">
+						<div class="img-container">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/1.jpg">
+								<img src="images/gallery/1.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/2.jpg">
+								<img src="images/gallery/2.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/3.jpg">
+								<img src="images/gallery/3.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/4.jpg">
+								<img src="images/gallery/4.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/5.jpg">
+								<img src="images/gallery/5.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/6.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/7.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/8.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/9.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+						
+				</div><!--/ end flickr -->
+
+				<div class="col-md-3 col-sm-12 footer-widget footer-about-us">
+					<h3 class="widget-title">About Thinko Digital Marketing Solutions</h3>
+					<p>One global team driving multiple value in the post-digital era.We are a award winning multinational company. We believe in quality and standard worldwide.</p>
+					<h4>Address</h4>
+					<p>197-L Johar Town lahore,Pak</p>
+					<h4>Email</h4>
+                     <p>Email:contact@thinkodigital.com</p>
+					    <h4>Phone No.</h4>
+							<p>+1 (609)736-095</p>
+							<br>
+
+							</div>
+					
+
+						
+										
+                    <form  action="#" role="form">
+                        <div class="input-group subscribe">
+                            <input type="email" class="form-control" placeholder="Email Address" required="">
+                            <span class="input-group-addon">
+                              <button class="btn" type="submit"><i class="fa fa-envelope-o"> </i></button>
+                            </span>                        
+                        </div>
+                    </form>
+				</div><!--/ end about us -->
+
+
+			</div><!-- Row end -->
+		</div><!-- Container end -->
+	</footer><!-- Footer end -->
+	
+
+	<!-- Footer start -->
+	<section id="copyright" class="copyright angle">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="footer-social unstyled">
+						<li>
+							<a title="Instagram" href="https://www.instagram.com/thinkodigital/">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-instagram"></i></span>
+							</a>
+							<a title="Facebook" href="https://www.facebook.com/thinkodigitalsolution">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-facebook"></i></span>
+							</a>
+							<a title="Google+" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-google-plus"></i></span>
+							</a>
+							<a title="linkedin" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-linkedin"></i></span>
+							</a>
+							<a title="Pinterest" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-pinterest"></i></span>
+							</a>
+							<a title="Skype" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-skype"></i></span>
+							</a>
+							<a title="Dribble" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-dribbble"></i></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div><!--/ Row end -->
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="copyright-info">
+         			 &copy; Copyright 2019 Thinkodigital <span>Designed by <a href="https://themefisher.com">Thinkodigital.com</a></span>
+        			</div>
+				</div>
+			</div><!--/ Row end -->
+		   <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+				<button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
+			</div>
+		</div><!--/ Container end -->
+	</section><!--/ Footer end -->
+
+	<!-- Javascript Files
+	================================================== -->
+
+	<!-- initialize jQuery Library -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!-- Bootstrap jQuery -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- Style Switcher -->
+	<script type="text/javascript" src="js/style-switcher.js"></script>
+	<!-- Owl Carousel -->
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<!-- PrettyPhoto -->
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<!-- Bxslider -->
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<!-- CD Hero slider -->
+	<script type="text/javascript" src="js/cd-hero.js"></script>
+	<!-- Isotope -->
+	<script type="text/javascript" src="js/isotope.js"></script>
+	<script type="text/javascript" src="js/ini.isotope.js"></script>
+	<!-- Wow Animation -->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<!-- SmoothScroll -->
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<!-- Eeasing -->
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<!-- Counter -->
+	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+	<!-- Waypoints -->
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<!-- Template custom -->
+	<script type="text/javascript" src="js/custom.js"></script>
+	</div><!-- Body inner end -->
+</body>
 </html>
